@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/0ddQYm3.png"></p>
 
-#WEBSITE BÁN ĐỒ THỂ THAO
+# WEBSITE BÁN ĐỒ THỂ THAO
 Môn: Phát triển ứng dụng Web
 
 Lớp: IS216.J12
