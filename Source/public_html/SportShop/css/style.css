@@ -52,10 +52,12 @@ section+section { margin-top: 50px; }
 /*------------- Top bar----------------*/
 #top {
 	width: 100%;
-	background:#0000FF;
+	background:#404040;
 	font-size: 12px;
-	color: #fff;
+	/*color: #fff;*/
+        color: #808080;
 	padding: 5px 0;
+        font-family: Arial;
 
 }
 #top .contact-action { margin-bottom: 0; }
@@ -67,9 +69,9 @@ section+section { margin-top: 50px; }
 	float: left;
 }
 #top .login-cart li a {
-	color: #fff ;
+	color: #ffffff ;
 	padding: 0 15px;
-	font-size: 14px;
+	font-size: 16px;
 	-webkit-transition: .4s ease-in-out;
 	-moz-transition: .4s ease-in-out;
 	-ms-transition: .4s ease-in-out;
@@ -77,7 +79,8 @@ section+section { margin-top: 50px; }
 	transition: .4s ease-in-out;
 }
 #top .login-cart li a:hover {
-	color: #555;
+	color: #ffff00;
+
 }
 #top .login-cart li a i {
 	margin-right: 3px;
@@ -85,6 +88,7 @@ section+section { margin-top: 50px; }
 header {
 	padding: 40px 0;
 	text-align: center;
+        background: #000000;
 }
 
 /*	Search Box Start
@@ -93,7 +97,7 @@ header {
 .search-box input {
 	outline: none;
 	border:none;
-	font-size: 12px;
+	font-size: 16px;
 	padding: 5px;
 	height: 25px;
 }
@@ -224,6 +228,7 @@ header {
 	-o-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 	font-size: 17px;
+        
 }
 
 .nav-main > li::before {
@@ -244,7 +249,8 @@ header {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background:#0000FF;
+	/*background:#0000FF;*/
+        background: #FFD700;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.3s, 
@@ -257,20 +263,25 @@ header {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
-	transform: translateY(0px);	
+	transform: translateY(0px);
+       
 }
 .nav-main > li a:hover, .nav-main > li a:focus {
-color:#0000FF;
+/*color:#0000FF;*/
+ color: #ff00ff;
+
 	
 }
 .nav-main > li a {
 	padding: 20px 15px;
 	color:#555;
+
 	font-size: 17px;
 }
 .navbar-nav {
 	float: none;
 	text-align: center;
+        /*background: #ff4dd2;*/
 }
 
 .navbar-nav>li {
@@ -280,6 +291,7 @@ color:#0000FF;
 }
 .nav-main .dropdown-menu a:hover{
 	background: #fff;
+
 }
 .nav-main .dropdown-menu li a {
 	color: #555;
@@ -289,18 +301,21 @@ color:#0000FF;
 }
 .nav-main .dropdown-menu li:hover {
 	color: #fff;
+        
 }
 .navbar-nav .active {
 	border-top: 2px solid #0000FF;
 	border-bottom: 2px solid #0000FF;
 	margin: -1px 0;
+        
 }
 .navbar-nav .active a {
 	background: #fff !important;
 }
 .nav-main .dropdown-menu li a:hover {
 	color: #fff;
-	background: #0000FF;
+	/*background: #0000FF;*/
+        background: #b3b3b3;
 }
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
@@ -315,7 +330,9 @@ color:#0000FF;
 	margin-top: 2px;
 }
 
-
+.navbar-default{
+    background: #262626;
+}
 
 /*	 Slider Start
     ==================================================*/
